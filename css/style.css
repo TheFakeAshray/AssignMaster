@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.navSidebar{
+    height: 100%;
+    width: 16%;
+    background-color: #2980b9;
+    position:fixed;
+}
+.navSidebarSmall{
+    height: 100%;
+    width: 100px;
+    background-color: #2980b9;
+    position:fixed;
+}
+
+
+
+#logo{
+    margin-top: 10%;
+    background-color: white;
+    padding-left: 5%;
+    font-size: 50px;
+}
+.navitem{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    font-size: 28px;
+    color: white;
+}
+.navitemsmall{
+    margin-top: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 28px;
+    color: white;
+}
+
+.user{
+    height: 15%;
+    background-color: #3498db;
+    font-size: 28px;
+    color: white;
+}
+
+#usericon{
+    
+    margin-top: 12%;
+    margin-bottom: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*max-width: 50%;*/
+    max-height: 50%;
+}
+
+#usericonsmall{
+
+    /*float: center;*/
+    margin-top: 12%;
+    margin-bottom: 12%;
+    max-width: 14%;
+    max-height: 10%;
+}
+
+.navicons{
+    max-width: 94%;
+    margin-right: 3%;
+    margin-left: 3%; 
+}
+
+.content{
+    margin-left: 16%;
+    width: 64%;
+    float: left;
+    height: 100%;
+}
+.a-content{
+    margin-left: 100px;
+    width: -webkit-calc(100% - 100px);
+    width:    -moz-calc(100% - 100px);
+    width:         calc(100% - 100px);
+    float: left;
+    height: 100%;
+}
+
+.assignments{
+    margin-left: 5%;
+    font-size: 40px;
+    
+}
+.assignments2{
+    margin-left: 5%;
+    font-size: 40px;
+    float: left;
+}
+.back{
+    margin-right: 5%;
+    font-size: 40px;
+    float: left;
+}
+.back:hover{
+    font-weight: bold;
+}
+.titles{
+    font-size: 40px;
+        font-weight: bold;
+
+}
+.titleWrapper{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 3%;
+    width: 100%;
+}
+
+
+
+.chatSidebar{
+    height: 100%;
+    width: 20%;
+    max-width: 20%;
+    background-color: rgba(255,255,255, 1);
+    position: fixed;
+    right:0;   
+    border-left: thin solid #757575;
+}
+
+.notification{
+    float: left;
+    width: 95%;
+}
+#notifications{
+    float: left;
+    width: 33%;
+    /*border: 1px solid black;*/
+    border-left: none;
+    border-right: none;
+    background-color: #3498db;
+}
+
+#chat{
+    float: left;
+    /*border: 1px solid black;*/
+    border-left: none;
+    border-right: none;
+    width: 33%;
+}
+#settings{
+    float: left;
+    /*border: 1px solid black;*/
+    border-left: none;
+    border-right: none;
+    width: 33%;
+}
+#notifications:hover, #chat:hover, #settings:hover{
+    background-color: #2980b9;
+}
+
+
+.icon{
+    text-align: center;
+    font-size: 50px;
+}
+
+.card{
+    width: (100% - 100px);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    overflow-wrap: normal;
+}
+.rightalign{
+    float:right;
+}
+
+
+.card-header{
+    font-size: 40px;
+    font-family: Raleway;
+    text-align: center;
+}
+.card-header:hover{
+    background-color: #e74c3c;
+}
+.inassignmenttitles{
+    font-size: 30px;
+    margin-left: 4%;
+    margin-top:5%;
+}
+.feedback{
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right:2.5%;
+    float:left;
+}
+.down{
+    float: right;
+}
+.usericon2{
+    max-width: 10%;
+}
+
+.col1{
+    width: 65%;
+    padding-left: 5%;
+    float: left;
+}
+
+.col2{
+    width: 25%;
+    padding-right: 5%;
+    padding-top:2%;
+    float: left;
+
+}
+.answercard{
+    height: 100%;
+}
+.comment1{
+    background-color: #3498db;
+}
+.comment2, .grades:hover{
+    background-color: #9b59b6;
+}
+.comment3, .dashboard:hover{
+    background-color: #f39c12;
+}
+.comment4, .navassignments:hover{
+    background-color: #d35400;
+}
+.comment5, .peergroups:hover{
+    background-color: #e74c3c;
+}
+
+.btn-primary {
+  background-color: #3498db !important;
+  border-color: #3498db !important;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9 !important;
+  border-color: #2980b9 !important;
+}
+
+
+* {
+ font-size: 100%;
+ font-family: Raleway, Arial;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AssignMaster</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <!--LEFT SIDEBAR-->
+    <div class="navSidebar">
+        <!--<div class="a-items">-->
+
+            <div id="logo"> <img src="images/logo.png"></div>
+            <div class="user">
+                <img id="usericon" src="images/usericon.png"/> Ashray
+            </div>
+            <div class="navitem dashboard"> 
+                Dashboard
+            </div>
+            <div class="navitem navassignments"> 
+                Assignments
+            </div>
+            <div class="navitem peergroups"> 
+                Peer Groups
+            </div>
+            <div class="navitem grades"> 
+                Grades
+            </div>
+        <!--</div>-->
+    </div>
+
+    <!--RIGHT SIDEBAR-->
+    <div class="chatSidebar">
+        <hr width="2" size="500">
+        <div id="notifications">
+            <div class="icon">&#65281;</div>
+        </div>
+        <div id="chat">
+            <div class="icon">&#128491;</div>
+        </div>
+        <div id="settings">
+            <div class="icon">&#9881;</div>
+        </div>
+        <br>
+        <div class="card notification">
+          <div class="card-block text-xs-left|center|right">
+            <h4 class="card-title">ArtGen300</h4>
+            <p class="card-text">New Assignment out!</p>
+          </div>
+        </div>
+        <div class="card notification">
+          <div class="card-block text-xs-left|center|right">
+            <h4 class="card-title">Art History: Assignment Feedback</h4>
+            <p class="card-text">Richard Hendrix has placed feedback on your assignment!</p>
+          </div>
+        </div>
+        <div class="card notification">
+          <div class="card-block text-xs-left|center|right">
+            <h4 class="card-title">Art History: Assignment Feedback</h4>
+            <p class="card-text">Patrick has seen your feedback!</p>
+          </div>
+        </div>
+        <div class="card notification">
+          <div class="card-block text-xs-left|center|right">
+            <h4 class="card-title">Art History: Assignment 1</h4>
+            <p class="card-text">Assignment 1 now out kids! Have fun!</p>
+          </div>
+        </div>
+        <div class="card notification">
+          <div class="card-block text-xs-left|center|right">
+            <h4 class="card-title">Don't Forget To</h4>
+            <p class="card-text">Smash that like button, and subscribe to my channel for more daily updates on fidget spinners.</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="titleWrapper">
+            <div class="assignments">Art History: Assignment 1</div>
+            <hr>
+        </div>
+        
+        <div class="card">
+          <div class="card-block text-xs-left|center|right">
+            <h4 class="card-title">Assignment Info</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consectetur felis quis dui dapibus, sit amet volutpat velit volutpat. Etiam vehicula elit at arcu interdum ullamcorper. Integer sit amet lorem vitae ante euismod ornare. Suspendisse pharetra ligula at lorem feugiat varius. Donec sit amet eleifend quam. Maecenas gravida hendrerit elit vel euismod. In imperdiet ex a aliquam fermentum. Aenean malesuada faucibus ante eu sagittis.</p>
+            <button class="btn btn-primary btn-lg rightalign">Read More</button>
+          </div>
+        </div>
+          
+        <div class="card">
+            <a href="assignment.html" style="text-decoration : none; color : #000000;"><div class="card-header">Start Assignment</div></a>
+            <div class="card-block">
+                <!--TABS PEERFEEDBACK/READINGLIST-->
+                <ul class="nav nav-tabs nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Peer Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reading List</a>
+                    </li>
+                </ul>
+                <!--VIEW OWN FEEDBACK-->
+                <div class="inassignmenttitles" > 
+                    View Own Feedback 
+                </div>
+                <div class="card feedback">
+                    <div class="card-block text-xs-left|center|right">
+                        <h4 class="card-title">Patrick</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consectetur felis quis dui dapibus, sit amet volutpat velit volutpat.</p>
+                        <button onclick="location.href='review.html';" class="btn btn-primary btn-lg rightalign">View</button>
+                    </div>
+                </div>
+                <div class="card feedback">
+                    <div class="card-block text-xs-left|center|right">
+                        <h4 class="card-title">George</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consectetur felis quis dui dapibus, sit amet volutpat velit volutpat.</p>
+                        <button onclick="location.href='review.html';" class="btn btn-primary btn-lg rightalign">View</button>
+                    </div>
+                </div>
+                <!--OFFER FEEDBACK-->
+                <br>
+                <div class="inassignmenttitles" style="padding-top:50px;" > 
+                    Offer Feedback
+                </div>
+                <div class="card feedback">
+                    <div class="card-block text-xs-left|center|right">
+                        <h4 class="card-title"><img class="usericon2" src="images/usericon.jpg">Dinesh Chugtai
+                            <button onclick="location.href='offerreview.html';" class="btn btn-primary btn-lg rightalign">View</button>
+                        </h4>
+                        
+                    </div>
+                </div>
+                <div class="card feedback">
+                    <div class="card-block text-xs-left|center|right">
+                        <h4 class="card-title"><img class="usericon2" src="images/usericon.jpg">Richard Hendrix
+                            <button onclick="location.href='offerreview.html';" class="btn btn-primary btn-lg rightalign">View</button>
+                        </h4>
+                    </div>
+                </div>
+                <div class="card feedback">
+                    <div class="card-block text-xs-left|center|right">
+                        <h4 class="card-title"><img class="usericon2" src="images/usericon.jpg">Bertram Gilfoyle
+                            <button onclick="location.href='offerreview.html';" class="btn btn-primary btn-lg rightalign">View</button>
+                        </h4>
+                        
+                    </div>
+                </div>
+                <div class="card feedback">
+                    <div class="card-block text-xs-left|center|right">
+                        <h4 class="card-title"><img class="usericon2" src="images/usericon.jpg">Erlich Bachman
+                            <button onclick="location.href='offerreview.html';" class="btn btn-primary btn-lg rightalign">View</button>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="btn-group-vertical buttons" role="group" aria-label="Basic example">
+            <div class="titles"> Past assignments </div>
+            <button type="button" class="btn btn-secondary">Left</button>
+            <button type="button" class="btn btn-secondary">Middle</button>
+            <button type="button" class="btn btn-secondary">Right</button>
+        </div>-->
+    </div>
+</body>
+
+</html>
